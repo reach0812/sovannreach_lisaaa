@@ -1,0 +1,491 @@
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+ 
+}
+body {
+  min-height: 100dvh;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  
+  background-image: url("fun.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  .hero {
+  height: 100vh;
+  background: 
+   
+   url("home.jpg") center / cover no-repeat;
+  position: relative;
+  
+   min-height: 100vh;
+  position: relative;
+
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* keeps portrait clean */
+ filter:none;
+  
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("image/your-portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  filter:none;
+  transform: scale(1.2);
+  opacity: 1;
+  z-index: -1;
+}
+
+}
+body.memo {
+
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #E63946, #F1A9A0,#2e0105;
+  background-image: url("memories-bg.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f3f5f7;
+  text-align: center;
+  height: 100h;
+
+}
+h1.hh{
+    background: linear-gradient(45deg, #ee838c, #f5f071,#e52fc7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+h2.mm{
+  font-size: clamp(28px, 4vw, 42px);
+
+  background: linear-gradient(45deg, #ed4957, #f3ec21,#ef13ca);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+h1.rr{
+    background: linear-gradient(45deg, #E63946, #F1A9A0,#2e0105);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+p.hh{
+   background: linear-gradient(45deg, #ee838c, #f5f071,#e52fc7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+h1.fun{
+background: linear-gradient(45deg, #E63946, #F1A9A0,#2e0105);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+h2.fun{
+  background: linear-gradient(45deg, #E63946, #F1A9A0,#2e0105);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+h1.h22{
+  background: linear-gradient(45deg, #E63946, #F1A9A0,#2e0105);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  
+}
+
+.hero {
+    height: 90vh;
+  background: 
+  
+    url("/mnt/data/19c3b130-7463-4ad5-a900-edb9077a2d1f.png") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+  height: 120vh;
+  background: url("image/heart.gif") center/cover no-repeat;
+  position: relative;
+}
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+/* Optional: Subtle zoom animation */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  filter: none;
+  z-index: -4;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+ 
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+button {
+  background: linear-gradient(45deg,#E63946,#F1A9A0);
+ color: white;
+  border: none;
+  padding: 16px 23px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 16px;
+position: sticky;
+  transform: scale(1);
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #F1A9A0, #E63946); /* Reverse gradient on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Soft shadow */
+}
+
+
+button.outline:hover {
+  background: linear-gradient(45deg, #E63946, #F1A9A0);
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.section {
+  padding: 80px 20px;
+
+}
+html, body {
+  overflow-y: auto;
+  height: auto;
+}
+.container {
+  min-height: 100vh;
+  height: auto;
+}
+
+/* fun SECTION BACKGROUND GIF */
+.dark {
+  /*background: linear-gradient(135deg, #404041, #ff69b4,  #404041);*/
+ height: 90vh;
+background: url("fun.gif") center/cover no-repeat;
+}
+
+.gallery {
+     display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 👈 4 images per row */
+  gap: 24px;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 40px auto;
+}
+
+.photo img {
+    width: 100%;
+  height: 340px;   /* BIGGER cards */
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.photo img:hover {
+  transform: scale(1.05);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  
+  background: linear-gradient(135deg,#edacb1,#efdba8,#d1b8ba);
+  color: #020617;
+  padding: 7px;
+  border-radius: 16px;
+  width: 200px;
+}
+
+.letter-box {
+  background: linear-gradient(135deg,#edacb1,#efdba8,#d1b8ba);
+  color: #020617;
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.final {
+  background: linear-gradient(135deg,#E63946,#FBBF24);
+  color: #020617;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.photo span {
+  position: absolute;
+  bottom: 15px;
+  left: 1px;
+  background: rgba(0,0,0,0.6);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.photo img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.photo:hover img {
+  transform: scale(1.08);
+}
+.alert-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.alert-box {
+  background: rgb(235, 163, 238);
+  color: #020617;
+  width: 90%;
+  max-width: 360px;
+  padding: 24px;
+  border-radius: 20px;
+  text-align: center;
+  animation: pop 0.3s ease;
+}
+
+.alert-box img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.alert-box p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.alert-box button {
+  background: #e7b1b5;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+/* MEMORIES SECTION BACKGROUND GIF */
+.memories-bg {
+  position: relative;
+  background: url("fun.gif") center / cover no-repeat;
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+/* Dark overlay so text & photos stay clear */
+.memories-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+ 
+  z-index: 0;
+   pointer-events: none;
+}
+
+/* Keep content above overlay */
+.memories-bg h2,
+.memories-bg .gallery {
+  position: relative;
+  z-index: 1;
+}
+/* reason SECTION BACKGROUND GIF */
+.section{
+  position: relative;
+  background: url("fun.gif") center / cover no-repeat;
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+/* Dark overlay so text & photos stay clear */
+.reasons-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); /* adjust darkness */
+  z-index: 0;
+}
+
+/* Keep content above overlay */
+.reasons-bg h2,
+.reasons-bg .gallery {
+  position: relative;
+  z-index: 1;
+}
+/* CAROUSEL WRAPPER */
+.carousel {
+  width: 120%;
+  max-width: 1000px; /* limit max width for large screens */
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1200px;
+  margin: 70px auto;
+  overflow: hidden;
+}
+
+/* ROTATING CONTAINER */
+.carousel-container {
+  position: relative;
+  width: 370px;
+  height: 370px;
+  transform-style: preserve-3d;
+  animation: spin 20s linear infinite;
+}
+
+/* VIDEO STYLE */
+.carousel-container video {
+  position: absolute;
+  width: 290px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(242, 233, 69, 0.5);
+  transition: transform 0.5s, box-shadow 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* HOVER EFFECT */
+.carousel-container video:hover {
+  transform: scale(1.1) translateZ(350px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7);
+}
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    background-size: cover; /* full screen on phone */
+  }
+
+  .hero::before {
+    display: none; /* no need blur on phone */
+  }
+    .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+  }
+
+  .photo img {
+    height: 220px;
+  }
+}
+
+

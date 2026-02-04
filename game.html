@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Just For You 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="section dark">
+
+  <h2 class="fun">🎁 Guess My Gift!</h2>
+  <h2 class="fun">If you’re right → I buy your favorite food 🍔❤️  
+     If wrong → you kiss me 100 times 😘</h2>
+
+  <!-- GUESSING GAME BUTTONS -->
+  <div class="fun-buttons">
+<button onclick="guessGift('perfume')">🎁 Perfume</button>
+<button onclick="guessGift('flower')">🌹 Flowers</button>
+<button onclick="guessGift('Ring')">💍 Ring</button>
+<button onclick="guessGift('album')">📖 Memories Album</button>
+<button onclick="guessGift('teddy')">🧸 Teddy Bear</button>
+<button onclick="guessGift('skincare')">🧴 Skin Care</button>
+
+  </div>
+
+
+</section>
+
+<!-- GAME RESULT MODAL -->
+<div id="gameModal" class="alert-modal">
+  <div class="alert-box">
+    <p id="gameText"></p>
+    <button onclick="closeGame()">Close 💕</button>
+  </div>
+</div>
+
+<!-- NAV BUTTONS -->
+
+  <div class="buttons">
+    <a href="memories.html"><button>Our Memories 📸</button></a>
+    <a href="fun.html"><button class="outline">Good Movement 💖</button></a>
+    <a href="reasons.html"><button class="outline">100 Reasons 💌</button></a>
+    <a href="letter.html"><button class="outline">My Message 💌</button></a>
+    <a href="game.html"><button class="outline">Game💌</button></a>
+    <a href="index.html"><button class="outline">Back</button></a>
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -27,9 +27,9 @@ function guessGift(choice) {
   const text = document.getElementById("gameText");
 
   if (choice === correctGift) {
-    text.innerText = "🎉 You’re right!\nI’ll buy your favorite food 🍔❤️";
+    text.innerText = "🎉 You’re right!\nI’ll buy your favorite food❤️";
   } else {
-    text.innerText = "😆 Wrong!\nYou owe me 100 kisses 😘💋💋💋";
+    text.innerText = "😆 Wrong!\nYou owe me 100 kisses💋";
   }
 
   modal.style.display = "flex";
